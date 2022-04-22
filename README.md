@@ -1,11 +1,12 @@
-# DSSP file Parser
-
-## Parse DSSP files to extract all helices.
+# DSSP file Parser - Parse DSSP files to extract all helices from .dssp files
 
 ### Introduction
-This package parses DSSP files and fetch all helices in separate files.
 
-Save all DSSP files of the PDB structures in 'dssp_files' direcotry. These files are obtained from the PDB structures using DSSP.
+This package parses DSSP files and grives you all helices in separate files. Requires Python3
+
+## Prepare your files
+
+Save all DSSP files of the PDB structures in 'dssp_files' direcotry. These files can be obtained from the PDB structures using DSSP.
 
 Test data is provided in the given directories.
 
