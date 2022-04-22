@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This package parses DSSP files and grives you all helices in separate files. Requires Python3
+This package parses DSSP files and gives you all helices in separate files. Requires Python3
 
 ## Prepare your files
 
