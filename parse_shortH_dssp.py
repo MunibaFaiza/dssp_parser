@@ -1,7 +1,3 @@
-# Author: Dr. Muniba Faiza
-# Copyright Muniba Faiza 2022
-
-
 #!/usr/bin/env python3
 
 import os
