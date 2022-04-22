@@ -14,15 +14,14 @@ import pprint
 import sys
 import re
 
-
+#path to dssp directory
 input_path = os.getcwd()+"/dssp_files"
 
 
 #read all filenames in the dir
-
 file_list = os.listdir(input_path)
-#print(file_list)
 
+#path to output directory
 output_path = os.getcwd()+"/shortH_output"
 
 
