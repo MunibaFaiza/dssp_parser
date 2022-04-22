@@ -1,3 +1,7 @@
+# Author: Dr. Muniba Faiza
+# Copyright Muniba Faiza 2022
+
+
 #!/usr/bin/env python3
 
 import os
@@ -18,17 +22,16 @@ input_path = os.getcwd()+"/dssp_files"
 # Read all filenames in the dir
 file_list = os.listdir(input_path)
 
-# 
+# Path to output direcotry
 output_path = os.getcwd()+"/longH_output"
 
 
-#collecting the total number of log files in the directory.
-
+#collecting the total number of dssp files in the directory.
 num_files = len(glob.glob1(input_path,"*.dssp"))
 print('There are',num_files, 'dssp files in the input directory\n\n')
 
 
-
+#looking for long helices
 matches = ["H  >", "H  <", "H  3>", "H  3<", "H  4", "H  X", "H >", "H 3", "H <", "H X", "H 4"]
 
 
@@ -67,12 +70,10 @@ for file_name in file_list:
 							filecounter +=1
 							set_line_header = line_header
 
-						#os.makedirs(os.path.join(mypath, fname+"_H"), 0o777, exist_ok=True)
-						#os.chdir(os.path.join(mypath, fname+"_H"))
-
-						#dir_empty(output_path)
-						
+						#change to output directory						
 						os.chdir(output_path)
+						
+						#create an output file and append helix to it.
 						with open(file_name+"_H_"+str(filecounter)+".dssp", "a") as h:
 							print(set_line_header+"\n"+line+"\n",file=h)
 							h.close()
