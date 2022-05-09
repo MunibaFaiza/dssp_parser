@@ -20,4 +20,4 @@ The program will fetch all long helices denoted by 'H' in longH_output direcotry
 
 You can also find start and end residues of each helix using the script "start_end_hel.py".
 
-```$ python3 start_end_hel.py```
+```$ python3 start_end_helix_res.py```
