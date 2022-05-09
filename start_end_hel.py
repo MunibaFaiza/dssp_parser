@@ -36,8 +36,7 @@ for helix in dssp_files:
 
                 if(i==2):
                     helix_start = line_array[1]
-                    #print(line_array[1])
-
+                    
                 helix_end = line_array[1]
 
 
