@@ -1,4 +1,4 @@
-# DSSP file Parser - Parse DSSP files to extract all helices from .dssp files
+# DSSP file Parser - Python package to parse DSSP files to extract all helices from .dssp files
 
 ### Introduction
 
